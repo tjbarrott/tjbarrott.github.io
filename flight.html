@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<div id="wrapper">
+<header>
+	<script src="https://www.paypalobjects.com/js/external/dg.js" type="text/javascript"></script>
+	<title>Oahu Hawaii::flights</title>
+	<meta charset="utf-8"
+	content="width=device-width initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="hawaii.css"/>
+	<div id="flower">
+		<a class="notes" target="_tab" href="https://www.ebay.com/p/Hawaiian-Hibiscus-Flower-Sticker-Decal-From-Hawaii/1331744308">image source</a>
+	</div>
+	<h1>Oahu Hawaii Flights</h1>
+</header>
+
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="attractions.html">Places to See</a>
+			<ul>
+				<li><a href="culturalcenter.html">Polynesian Cultural Center</a></li>
+				<li><a href="pearlharbor.html">Pearl Harbor</a></li>
+				<li><a href="beaches.html">Beaches</a></li>
+				<li><a href="parks.html">Parks</a></li>
+			</ul>
+		</li>
+		<li><a href="dining.html">Dining</a></li>
+		<li><a href="places.html">Places to Stay</a></li>
+		<li><a href="flight.html">Flight</a></li>
+	</ul>
+</nav>
+
+<div id="mainpic">
+	<a class="notes" target="_tab" href="https://www.racq.com.au/Living/Articles/Immerse-yourself-in-the-lush-tropics-of-Hawaii">image source</a>
+</div>
+
+<main>	
+	<h2>Don't you wish you were here?<br>
+	Book your flight now.</h2>
+	<p>
+		* indicates a required field.
+	</p>
+	<form action="https://www.expedia.com/Flights" method="get">
+		<label for ="myFName">First Name:</label>
+		<input name="myFName" id="myFName" type="text">
+		<label for ="myLName">Last Name:</label>
+		<input name="myLName" id="myLName" type="text">
+		<label for ="DepCity">Departing City:</label>
+		<input name="DepCity" id="DepCity" type="text" size="35" >
+		<label for ="ArrCity">*Arriving City:</label>
+		<input name="ArrCity" id="ArrCity" type="text" value="Honolulu">
+		<label for ="myArrival">Arrival Date:</label>
+		<input name="myArrival" id="myArrival" type="date" >
+		<label for ="myDeparture">Departure Date:</label>
+		<input name="myDeparture" id="myDeparture" type="date" >
+		<input type="submit" value="Submit">
+	</form>
+	<form action="https://www.sandbox.paypal.com/webapps/adaptivepayment/flow/pay" target="PPDGFrame" class="standard">
+	<label for="buy">Buy Now:</label>
+	<input type="image" id="submitBtn" value="Pay with PayPal" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif">
+	<input id="type" type="hidden" name="expType" value="light">
+	<input id="paykey" type="hidden" name="paykey" value="insert_pay_key">
+	</form>
+</main>
+
+<footer>
+	
+	<a href="mailto:taft@barrott.com"><img src="images/gmail.png"></img></a>
+	<a target="_tab" href="https://www.facebook.com/Hawaii/"><img src="images/facebook.png"></img></a>
+	<a target="_tab" href="https://twitter.com/search?q=hawaii&src=typd"><img src="images/twitter.png"></img></a>
+	<a target="_tab" href="https://www.pinterest.com/search/pins/?q=hawaii&rs=typed"><img src="images/pinterest.png"></img></a>
+	
+	<div class="notes">
+		Icons made by <a class="notes" target="_tab" href="https://www.freepik.com/?__hstc=57440181.e2a68ffc0fdd5822f08c3b9a162eaa0b.1557291460744.1557291460744.1557291460744.1&__hssc=57440181.1.1557291460745&__hsfp=2448495397" title="Freepik">Freepik</a> 
+		from <a class="notes" target="_tab" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by 
+		<a class="notes" target="_tab" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank"> CC 3.0 BY</a>
+	</div>
+
+</footer>
+</div>
+<script type="text/javascript" charset="utf-8">
+var embeddedPPFlow = new PAYPAL.apps.DGFlow({trigger: 'submitBtn'});
+</script>
+</html>

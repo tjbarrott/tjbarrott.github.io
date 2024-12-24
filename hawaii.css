@@ -1,0 +1,587 @@
+header, main, nav, footer, figure, figcaption, aside, section, article {display: block; }
+
+header{
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    min-height: 110px;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+}
+
+#flower{
+    background-image: url(images/flower.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+nav{
+    font-weight: bold;
+    font-size: 130%;
+    position: relative;
+    text-align: left;
+    background-color: #003366;
+}
+
+nav a{
+    text-decoration: none;
+    transition: color 2s ease-out;    
+}
+
+nav ul{    
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding: 1em;
+}
+
+nav ul ul{
+    position: absolute;
+    background-color: #004c99;
+    text-align: left;
+    padding: 1px;
+    display: none;
+}
+
+nav ul ul li{
+    border: 1px solid black;
+    display: block;
+
+}
+
+nav li:hover ul{
+    display: block;
+}
+
+nav a:link{
+    color: #00cccc;
+}
+
+nav a:visited{
+    color: #b300b3;
+}
+
+nav a:hover{
+    color: #c4c400;
+}
+
+body{
+    background-image: url(images/oahu.jpg);
+    background-size: 100%;
+    background-repeat: round;
+    font-family: Calibri, sans-serif; 
+    justify-content: center;  
+}
+
+main{
+    padding: 10px;
+    display: block;
+    background-color: #ffffff;
+}
+
+footer{
+    font-family: Georgia, serif;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+#wrapper{
+    width: 80%;
+    min-width: 960px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 0px #333333;
+    border: 1px solid #000033;
+    background-image: linear-gradient(to bottom, #ffffff, #00bcff);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{    
+    color: #47a482;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "MV Boli", serif;
+    font-size: 4em;
+}
+
+h2{
+    color: #3399CC;
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+.notes{
+    color: #000000;
+    font-size: .7em;
+    text-decoration: none;    
+}
+
+.mainlist{
+    font-weight: bold;
+    font-size: 110%;
+    position: relative;
+    text-align: left;
+}
+
+.mainlist a{
+    text-decoration: none;
+    transition: color 2s ease-out;    
+}
+
+.mainlist ul{    
+    list-style: none;
+}
+
+.mainlist li{
+    padding: 0.5em;
+    display: block;
+}
+
+.mainlist a:link{
+    color: #00cccc;
+}
+
+.mainlist a:visited{
+    color: #b300b3;
+}
+
+.mainlist a:hover{
+    color: #c4c400;
+}
+
+video, embed{
+    padding: 10px;
+    width: 98%;
+}
+
+table{
+    border: 2px solid #66b2ff;
+    border-collapse: collapse;    
+}
+
+td, th{
+    border: 2px solid #66b2ff;
+    padding: 0.5em;
+}
+
+td{
+    text-align: center;
+}
+
+tr:nth-of-type(odd){
+    background-color: #ccffff;
+}
+
+label{
+    float: left;
+    display: block;
+    width: 125px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    margin-left: 130px;
+}
+
+#indexpic{
+    height: 300px;
+    width: auto;
+    background-image: url(images/rainbow.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#mainpic{
+    height: 300px;
+    width: auto;
+    background-image: url(images/beautiful.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#ccenterpic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/firedancers.jpg);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#p_harborpic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/pearlharbor.jpg);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#lanikaipic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/lanikai.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#kailuapic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/kailua.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#waimanalopic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/waimanalo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#waikikipic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/waikiki.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#sunsetpic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/sunset.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#dolphinpic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/dolphin.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#zoopic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/zoo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#slidespic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/slides.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#parkpic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/park.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#dinnerpic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/dinner.jpg);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#placespic{
+    height: 500px;
+    width: auto;
+    background-image: url(images/waikiki.jpg);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+figure{
+    position: absolute;
+    left: 280px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 64em) {
+    body{
+	margin: 0;
+	background-color: #ffffff;
+    }
+
+    #wrapper{
+	min-width: 0;
+    	width: auto;
+    	box-shadow: none;
+    	border: none;
+    }
+   
+    h1{
+	font-size: 3em;
+    }
+    
+    #indexpic{
+	height: 200px;
+    }
+
+    #mainpic{
+	height: 200px;
+    }
+
+    #ccenterpic{
+	height: 300px;
+    }
+
+    #p_harborpic{
+	height: 300px;
+    }
+
+    #dinnerpic{
+	height: 300px;
+    }
+
+    #placespic{
+	height: 300px;
+    }
+
+    #dolphinpic{
+	height: 300px;
+    }
+
+    #kailuapic{
+	height: 300px;
+    }
+
+    #lanikaipic{
+	height: 300px;
+    }
+
+    #parkpic{
+	height: 300px;
+    }
+
+    #slidespic{
+	height: 300px;
+    }
+
+    #sunsetpic{
+	height: 300px;
+    }
+
+    #waikikipic{
+	height: 300px;
+    }
+
+    #waimanalopic{
+	height: 300px;
+    }
+
+    #zoopic{
+	height: 300px;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    main{
+	padding-left: 1em;
+	padding-right: 1em;
+	font-size: 90%;
+    }
+
+    h1{
+	font-size: 2em;
+    }
+
+    nav ul li{
+	display: block;
+	margin: 0;
+	border-bottom: 2px solid #330000;
+    }
+
+    nav li:hover ul{
+	display:none;
+    }
+
+    .mainlist {
+	background-color: #003366;
+    }
+
+    .mainlist li{
+	margin: 0;
+	padding: 1em;
+	border-bottom: 2px solid #330000;
+    }
+
+    #indexpic{
+	background-image: none;
+	height: 0;
+    }
+
+    #mainpic{
+	background-image: none;
+	height: 0;
+    }
+
+    #ccenterpic{
+	background-image: none;
+	height: 0;
+    }
+
+    #p_harborpic{
+	background-image: none;
+	height: 0;
+    }
+
+    #dinnerpic{
+	background-image: none;
+	height: 0;
+    }
+
+    #placespic{
+	background-image: none;
+	height: 0;
+    }
+
+    #dolphinpic{
+	background-image: none;
+	height: 0;
+    }
+
+    #kailuapic{
+	background-image: none;
+	height: 0;
+    }
+
+    #lanikaipic{
+	background-image: none;
+	height: 0;
+    }
+
+    #parkpic{
+	background-image: none;
+	height: 0;
+    }
+    #slidespic{
+	background-image: none;
+	height: 0;
+    }
+
+    #sunsetpic{
+	background-image: none;
+	height: 0;
+    }
+
+    #waikikipic{
+	background-image: none;
+	height: 0;
+    }
+
+    #waimanalopic{
+	background-image: none;
+	height: 0;
+    }
+
+    #zoopic{
+	background-image: none;
+	height: 0;
+    }
+
+    video, embed{
+	width: 0;
+	height: 0;
+    }
+
+    .notes{
+	display: none;
+}
+
+    label{
+	float: none;
+	text-align:left;
+    }
+
+    input[type="submit"]{
+	margin-left: 0;
+    }
+}
